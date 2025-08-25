@@ -1,0 +1,22 @@
+{
+  "name": "network-analytics-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Bhawesh Panwar",
+  "license": "ISC",
+  "description": "Network Logs Processing Engine",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3",
+    "pg-copy-streams": "^7.0.0"
+  }
+}
